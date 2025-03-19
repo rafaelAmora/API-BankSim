@@ -1,5 +1,5 @@
 import { knex } from "knex";
 import configKnex from "../../knexfile"; 
 
-// Inicializa o Knex com a configuração
+// Initialize Knex with the configuration
 export const db = knex(configKnex);
